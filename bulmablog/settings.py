@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'bulmablog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DATABASE_NAME'),
+        'NAME': 'Bulmablog',
         'USER':'postgres',
         'PASSWORD':env('DATABASE_PASSWORD'),
         'HOST':'localhost',
