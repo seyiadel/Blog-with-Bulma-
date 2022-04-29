@@ -1,0 +1,1 @@
+web: gunicorn bulmablog.wsgi --log-file-
